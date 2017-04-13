@@ -1,0 +1,83 @@
+/*************************\
+******[EVENTS PLUGIN]******
+\*************************/
+
+#events, #events-header, .event-item, .event, .cal-date, .date-day, .date-month, .details, .event-title, .event-time-loc, .event-button {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(38, 110, 126);
+    font-family: 'Raleway', sans-serif;
+}
+
+#events {
+}
+
+#events-header {
+    background: rgb(38, 110, 126);
+    color: white;
+    padding: .2em;
+    text-align: center;
+}
+
+.event-item {
+    margin: 15px;
+    list-style-type: none;
+    border-bottom: 1px solid;
+}
+
+.event {
+    margin: 10px;
+}
+
+.event:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cal-date {
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.cal-date span {
+    display: block;
+    text-align: center;
+}
+
+.date-month {
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+.date-day {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: -12px;
+}
+
+.details {
+    float: left;
+}
+
+.event-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.event-time-loc {
+    font-size: 1.5em;
+
+}
+
+.event-button {
+    background: rgb(38, 110, 126);
+    color: white;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: .3em;
+    float: right;
+}
